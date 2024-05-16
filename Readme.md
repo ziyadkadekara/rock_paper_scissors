@@ -16,6 +16,7 @@ You can watch the tutorial [here](https://www.youtube.com/watch?v=EerdGm-ehJQ).
 ## Screenshot
 
 ![Rock Paper Scissors Screenshot Intial stage](images/image.png)
+![Rock Paper Scissors Screenshot Version 2](images/version2.png)
 
 ## How to Play
 
