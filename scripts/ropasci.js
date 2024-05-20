@@ -15,7 +15,24 @@ let score = JSON.parse(localStorage.getItem('score')) || {
     };
   }
   */
-
+ let isAutoPlaying = false;
+ let intervalId;
+  function autoPlay(){
+    if(!isAutoPlaying){
+      intervalId = setInterval(function (){
+        const playerMove = pickComputerMove();
+        playGame(playerMove);
+      },1000);
+      isAutoPlaying=true;
+      document.querySelector('.js-auto-play').innerHTML='Stop';
+/*Added stop option extra by me not in the tutorial i watched */
+    }else {
+      clearInterval(intervalId);
+      isAutoPlaying = false;
+      document.querySelector('.js-auto-play').innerHTML='Auto Play';
+    }
+    
+  }
   function playGame(playerMove) {
     const computerMove = pickComputerMove();
 
