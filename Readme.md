@@ -8,10 +8,10 @@ You can watch the tutorial [here](https://www.youtube.com/watch?v=EerdGm-ehJQ).
 
 ## Features
 
-- Simple and intuitive user interface
-- Responsive design for mobile and desktop
-- Dynamic game logic using JavaScript
-- Score tracking for both player and computer
+- Player can choose their ooption
+- Reset Score Option
+- Refreshing doesnt delete the scores
+- Added Auto Play option 
 
 ## Screenshot
 
