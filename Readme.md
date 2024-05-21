@@ -21,8 +21,12 @@ You can watch the tutorial [here](https://www.youtube.com/watch?v=EerdGm-ehJQ).
 ## How to Play
 
 1. Choose your move: Rock, Paper, or Scissors.
-2. The computer will randomly choose its move.
-3. The winner is determined by the standard rules:
+2. -You can Press : 
+      2.1- r or 1 key for Rock
+      2.2- p or 2 for Paper
+      2.3- s or 3 for Scissor, to play.
+3. The computer will randomly choose its move.
+4. The winner is determined by the standard rules:
    - Rock beats Scissors
    - Scissors beats Paper
    - Paper beats Rock

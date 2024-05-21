@@ -54,6 +54,19 @@ document.querySelector('.js-reset-score-button').addEventListener('click',()=>{
 document.querySelector('.js-auto-play').addEventListener('click',()=>{
   autoPlay();
 });
+// listening keypress buttons..........................
+
+document.body.addEventListener('keydown', (event)=> {
+  if(event.key=== 'r' || event.key==='1'){
+    playGame('rock');
+  } else if (event.key==='p'|| event.key==='2'){
+    playGame('paper');
+  }else if (event.key==='s'|| event.key==='3'){
+    playGame('scissors');
+  }
+});
+
+//............................................
 
 function playGame(playerMove) {
   const computerMove = pickComputerMove();
