@@ -25,7 +25,7 @@ function autoPlay() {
     }, 1000);
     isAutoPlaying = true;
     document.querySelector('.js-auto-play').innerHTML = 'Stop';
-    /*Added stop option extra by me not in the tutorial i watched */
+    /*Added stop option extra by me, not in the tutorial i watched */
   } else {
     clearInterval(intervalId);
     isAutoPlaying = false;
@@ -33,6 +33,19 @@ function autoPlay() {
   }
 
 }
+//added to remove onclick attribute in buttons
+document.querySelector('.js-rock-button').addEventListener('click',()=>{
+  playGame('rock');
+});
+document.querySelector('.js-paper-button').addEventListener('click',()=>{
+  playGame('paper');
+});
+document.querySelector('.js-scissors-button').addEventListener('click',()=>{
+  playGame('scissors');
+});
+//now we can remove onclick attribute from the buttons
+
+
 function playGame(playerMove) {
   const computerMove = pickComputerMove();
 
