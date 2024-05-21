@@ -44,7 +44,16 @@ document.querySelector('.js-scissors-button').addEventListener('click',()=>{
   playGame('scissors');
 });
 //now we can remove onclick attribute from the buttons
-
+document.querySelector('.js-reset-score-button').addEventListener('click',()=>{
+  score.wins = 0;
+            score.losses = 0;
+            score.ties = 0;
+            localStorage.removeItem('score');
+            updateScoreElement();
+});
+document.querySelector('.js-auto-play').addEventListener('click',()=>{
+  autoPlay();
+});
 
 function playGame(playerMove) {
   const computerMove = pickComputerMove();
