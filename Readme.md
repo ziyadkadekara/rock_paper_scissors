@@ -4,7 +4,7 @@ Welcome to my Rock Paper Scissors game! This is a simple web-based game that all
 You can watch the tutorial [here](https://www.youtube.com/watch?v=EerdGm-ehJQ).
 ## Live Demo
 
-<!-- You can try the game live [here](https://your-live-demo-link.com). -->
+You can try the game live [here](https://ziyadkadekara.github.io/rock_paper_scissors/).
 
 ## Features
 
